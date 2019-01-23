@@ -14,6 +14,7 @@ public class Account {
 	private String firstName;
 	private String secondName;
 	private String accountNumber;
+	private String branch;
 
 	public Account() {
 
@@ -51,6 +52,14 @@ public class Account {
 
 	public Long getId() {
 		return id;
+	}
+
+	public String getBranch() {
+		return branch;
+	}
+
+	public void setBranch(String branch) {
+		this.branch = branch;
 	}
 
 	public void setId(Long id) {
